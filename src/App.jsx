@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import { yourNames } from "../../backend/allNames/igboNames";
+import { yourNames } from "../backend/allNames/igboNames";
 
 function App() {
   const [userName, setUserName] = useState("");
